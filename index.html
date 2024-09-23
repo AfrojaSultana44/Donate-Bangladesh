@@ -40,7 +40,7 @@
         </div>
         <div class="flex items-center">
           <img src="./assets/coin.png" alt="" />
-          <span class="ml-3 text-xl font-medium text-gray-500">5500 BDT</span>
+          <span id="main-balance" class="ml-3 text-xl font-medium text-gray-500">5500 BDT</span>
         </div>
       </nav>
     </header>
@@ -72,8 +72,13 @@
             <div class="basis-1/2 shrink-0 space-y-4">
               <div class="flex">
                 <img src="./assets/coin.png" alt="" />
+                <span
+                  id="donate-balance"
+                  class="text-[16px] font-normal ml-2 text-gray-500"
+                  >0
+                </span>
                 <span class="text-[16px] font-normal ml-2 text-gray-500"
-                  >0 BDT</span
+                  >BDT</span
                 >
               </div>
               <h2 class="text-xl font-bold text-[#111111]">
@@ -89,13 +94,15 @@
               </p>
               <div>
                 <input
+                  id="donate-amount"
                   class="w-full text-[16px] font-light border rounded-lg p-4"
-                  type="number"
+                  type="text"
                   placeholder="Write Donation Amount"
                 />
               </div>
               <div>
                 <button
+                  id="donateBtn"
                   class="w-full btn btn-active bg-[#B4F461] text-xl font-semibold text-[#111111]"
                 >
                   Donate Now
@@ -193,5 +200,8 @@
         </div>
       </section>
     </main>
+
+    <script src="./js/utilities.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
