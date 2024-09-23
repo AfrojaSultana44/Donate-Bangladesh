@@ -8,4 +8,15 @@ function getTextFieldValueById(id) {
   return textValue;
 }
 
+function showSection(id) {
+  // hide all the section
+  document.getElementById("card-section").classList.add("hidden");
+  document.getElementById("history-section").classList.add("hidden");
 
+  // show the section with provided id
+  document.getElementById(id).classList.remove("hidden");
+}
+
+function showModal(id){
+  
+}

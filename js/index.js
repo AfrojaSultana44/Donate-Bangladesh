@@ -15,10 +15,16 @@ document.getElementById("donateBtn").addEventListener("click", function () {
     //   const newMainBalance = mainBalance - newDonateBalance;
 
     //   document.getElementById("main-balance").innerText = newMainBalance;
-  
+
     //   console.log(newMainBalance);
     // }
 
+    // add to donation history
+    const div = document.createElement("div");
+    div.innerHTML = `
+    <p class="border rounded-2xl p-8 text-xl font-bold text-[#111111">${newDonateBalance} Taka is Donated for famine-2024 at Feni, Bangladesh</p>
+    `;
+    document.getElementById("history-section").appendChild(div);
   } else {
     alert("Failed to donate money.");
   }
