@@ -28,21 +28,21 @@ function donateHandler(id) {
     if (id === "card-one") {
       historyMessage = `
       <div class="border rounded-2xl p-8 ">
-      <p class="font-bold text-xl text-[#111111]">${donateAmountToNumber} Taka is Donated for Flood at Noakhali, Bangladesh</p>
+      <p class="font-bold text-xl text-[#111111] mb-4">${donateAmountToNumber} Taka is Donated for Flood at Noakhali, Bangladesh</p>
       <p class="text-[16px] font-light text-[rgba(17,17,17,0.7)] mt-1">${new Date()}</p>
       </div>
       `;
     } else if (id === "card-two") {
       historyMessage = `
       <div class="border rounded-2xl p-8 ">
-      <p class="font-bold text-xl text-[#111111]">${donateAmountToNumber} Taka is Donated for Flood Relief in Feni,Bangladesh</p>
+      <p class="font-bold text-xl text-[#111111] mb-4">${donateAmountToNumber} Taka is Donated for Flood Relief in Feni,Bangladesh</p>
       <p class="text-[16px] font-light text-[rgba(17,17,17,0.7)] mt-1">${new Date()}</p>
       </div>
       `;
     } else {
       historyMessage = `
     <div class="border rounded-2xl p-8 ">
-    <p class="font-bold text-xl text-[#111111]">${donateAmountToNumber} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</p>
+    <p class="font-bold text-xl text-[#111111] mb-4">${donateAmountToNumber} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</p>
     <p class="text-[16px] font-light text-[rgba(17,17,17,0.7)] mt-1">${new Date()}</p>
     </div>
     `;
