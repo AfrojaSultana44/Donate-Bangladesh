@@ -2,10 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {
-      fontFamily: {
-        lexend: ["Lexend", "system - ui"],
-      },
+    extend: {},
+    fontFamily: {
+      lexend: ["Lexend", "system - ui"],
     },
   },
   plugins: [],

@@ -4,14 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donate Bangladesh</title>
-    <!-- daisyUI Cdn -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,13 +11,20 @@
       href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- daisyUI Cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-[#FFFFFF] font-lexend">
+  <body class="bg-[#FFFFFF] font-[lexend]">
     <header class="sticky top-0 backdrop-blur-md pb-8">
       <!-- Navbar -->
       <nav class="bg-[#F9F7F3]">
         <div
-          class="w-full max-w-[1140px] mx-auto px-6 md:px-0 flex justify-between items-center pt-6 pb-16"
+          class="w-full max-w-[1140px] mx-auto px-4 flex justify-between items-center pt-6 pb-16"
         >
           <div>
             <button
@@ -74,12 +73,12 @@
       </section>
     </header>
 
-    <main class="w-full max-w-[1140px] mx-auto px-6 md:px-0">
+    <main class="w-full max-w-[1140px] mx-auto px-4">
       <!-- Card section -->
-      <section id="card-section">
+      <section id="card-section" class="mb-8">
         <div class="space-y-8">
           <div
-            class="flex flex-col md:flex-row md:justify-between md:items-start border rounded-2xl p-8"
+            class="flex flex-col md:flex-row md:justify-between md:items-start border border-[rgba(17,17,17,0.1)] rounded-2xl p-8"
           >
             <div class="basis-full md:basis-1/2 shrink-0 mb-8 md:mb-0">
               <img
@@ -88,8 +87,10 @@
                 alt=""
               />
             </div>
-            <div class="basis-full md:basis-1/2 shrink-0 space-y-4 pl-0 md:pl-8">
-              <div class="flex">
+            <div
+              class="basis-full md:basis-1/2 shrink-0 space-y-4 pl-0 md:pl-8"
+            >
+              <button class="flex bg-[rgba(17,17,17,0.05)] p-3 rounded-lg">
                 <img src="./assets/coin.png" alt="" />
                 <span
                   id="card-one-donate-balance"
@@ -100,7 +101,7 @@
                   class="text-[16px] font-normal ml-2 text-[rgba(17,17,17,0.7)]"
                   >BDT</span
                 >
-              </div>
+              </button>
               <h2 class="text-xl font-bold text-[#111111]">
                 Donate for Flood at Noakhali, Bangladesh
               </h2>
@@ -115,7 +116,7 @@
               <div>
                 <input
                   id="card-one-donate-amount"
-                  class="w-full text-[16px] font-light border rounded-lg p-4"
+                  class="w-full text-[16px] font-light border border-[rgba(17,17,17,0.1)] rounded-lg p-4"
                   type="text"
                   placeholder="Write Donation Amount"
                 />
@@ -135,10 +136,14 @@
             class="flex flex-col md:flex-row md:justify-between md:items-start border rounded-2xl p-8"
           >
             <div class="basis-1/2 shrink-0 mb-8 md:mb-0">
-              <img class="w-full h-auto md:h-[441px]" src="./assets/feni.png" alt="" />
+              <img
+                class="w-full h-auto md:h-[441px]"
+                src="./assets/feni.png"
+                alt=""
+              />
             </div>
             <div class="basis-1/2 shrink-0 space-y-4 pl-0 md:pl-8">
-              <div class="flex">
+              <button class="flex bg-[rgba(17,17,17,0.05)] p-3 rounded-lg">
                 <img src="./assets/coin.png" alt="" />
                 <span
                   id="card-two-donate-balance"
@@ -149,7 +154,7 @@
                   class="text-[16px] font-normal ml-2 text-[rgba(17,17,17,0.7)]"
                   >BDT</span
                 >
-              </div>
+              </button>
               <h2 class="text-xl font-bold text-[#111111]">
                 Donate for Flood Relief in Feni,Bangladesh
               </h2>
@@ -166,7 +171,7 @@
               <div>
                 <input
                   id="card-two-donate-amount"
-                  class="w-full text-[16px] font-light border rounded-lg p-4"
+                  class="w-full text-[16px] font-light border border-[rgba(17,17,17,0.1)] rounded-lg p-4"
                   type="text"
                   placeholder="Write Donation Amount"
                 />
@@ -193,7 +198,7 @@
               />
             </div>
             <div class="basis-1/2 shrink-0 space-y-4 pl-0 md:pl-8">
-              <div class="flex">
+              <button class="flex bg-[rgba(17,17,17,0.05)] p-3 rounded-lg">
                 <img src="./assets/coin.png" alt="" />
                 <span
                   id="card-three-donate-balance"
@@ -204,7 +209,7 @@
                   class="text-[16px] font-normal ml-2 text-[rgba(17,17,17,0.7)]"
                   >BDT</span
                 >
-              </div>
+              </button>
               <h2 class="text-xl font-bold text-[#111111]">
                 Aid for Injured in the Quota Movement
               </h2>
@@ -222,7 +227,7 @@
               <div>
                 <input
                   id="card-three-donate-amount"
-                  class="w-full text-[16px] font-light border rounded-lg p-4"
+                  class="w-full text-[16px] font-light border border-[rgba(17,17,17,0.1)] rounded-lg p-4"
                   type="text"
                   placeholder="Write Donation Amount"
                 />
@@ -241,7 +246,7 @@
       </section>
 
       <!-- History section -->
-      <section id="history-section" class="hidden mt-8 space-y-6"></section>
+      <section id="history-section" class="hidden my-8 space-y-6"></section>
 
       <!-- Modal -->
       <section>
