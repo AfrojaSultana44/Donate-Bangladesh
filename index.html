@@ -20,12 +20,12 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-[#FFFFFF]">
-    <header class="sticky top-0 backdrop-blur-md pb-4">
+  <body class="bg-[#FFFFFF] font-lexend">
+    <header class="sticky top-0 backdrop-blur-md pb-8">
       <!-- Navbar -->
       <nav class="bg-[#F9F7F3]">
         <div
-          class="lg:container w-full mx-auto flex justify-between items-center pt-6 pb-16"
+          class="lg:container w-full mx-auto px-6 lg:px-0 flex justify-between items-center pt-6 pb-16"
         >
           <div>
             <button
@@ -45,10 +45,12 @@
             <img src="./assets/coin.png" alt="" />
             <span
               id="main-balance"
-              class="ml-3 text-xl font-medium text-gray-500"
+              class="ml-3 text-xl font-medium text-[rgba(17,17,17,0.7)]"
               >5500</span
             >
-            <span class="ml-3 text-xl font-medium text-gray-500">BDT</span>
+            <span class="ml-2 text-xl font-medium text-[rgba(17,17,17,0.7)]"
+              >BDT</span
+            >
           </div>
         </div>
       </nav>
@@ -64,7 +66,7 @@
           </button>
           <button
             id="history-btn"
-            class="btn btn-active bg-white text-xl font-semibold text-gray-500 ml-4"
+            class="btn btn-active bg-white text-xl font-semibold text-[rgba(17,17,17,0.7)] ml-4"
           >
             History
           </button>
@@ -72,34 +74,37 @@
       </section>
     </header>
 
-    <main class="lg:container w-full mx-auto">
+    <main class="lg:container w-full mx-auto px-6 lg:px-0">
       <!-- Card section -->
-      <section id="card-section" class="mt-8">
+      <section id="card-section">
         <div class="space-y-8">
-          <div class="flex justify-between items-start border rounded-2xl p-8">
-            <div class="basis-1/2 shrink-0">
+          <div
+            class="flex flex-col lg:flex-row justify-between items-start border rounded-2xl p-8"
+          >
+            <div class="basis-full lg:basis-1/2 shrink-0 mb-8 lg:mb-0">
               <img
                 class="w-[522px] h-[389px]"
                 src="./assets/noakhali.png"
                 alt=""
               />
             </div>
-            <div class="basis-1/2 shrink-0 space-y-4">
+            <div class="basis-full lg:basis-1/2 shrink-0 space-y-4">
               <div class="flex">
                 <img src="./assets/coin.png" alt="" />
                 <span
                   id="card-one-donate-balance"
-                  class="text-[16px] font-normal ml-2 text-gray-500"
+                  class="text-[16px] font-normal ml-2 text-[rgba(17,17,17,0.7)]"
                   >0
                 </span>
-                <span class="text-[16px] font-normal ml-2 text-gray-500"
+                <span
+                  class="text-[16px] font-normal ml-2 text-[rgba(17,17,17,0.7)]"
                   >BDT</span
                 >
               </div>
               <h2 class="text-xl font-bold text-[#111111]">
                 Donate for Flood at Noakhali, Bangladesh
               </h2>
-              <p class="text-[16px] font-light text-gray-500">
+              <p class="text-[16px] font-light text-[rgba(17,17,17,0.7)]">
                 The recent floods in Noakhali have caused significant damage to
                 homes infrastructure. Your donation will help provide essential
                 supplies and to those affected by this disaster. Every
@@ -126,8 +131,10 @@
             </div>
           </div>
 
-          <div class="flex justify-between items-start border rounded-2xl p-8">
-            <div class="basis-1/2 shrink-0">
+          <div
+            class="flex flex-col lg:flex-row justify-between items-start border rounded-2xl p-8"
+          >
+            <div class="basis-1/2 shrink-0 mb-8 lg:mb-0">
               <img class="w-[522px] h-[441px]" src="./assets/feni.png" alt="" />
             </div>
             <div class="basis-1/2 shrink-0 space-y-4">
@@ -135,17 +142,18 @@
                 <img src="./assets/coin.png" alt="" />
                 <span
                   id="card-two-donate-balance"
-                  class="text-[16px] font-normal ml-2 text-gray-500"
+                  class="text-[16px] font-normal ml-2 text-[rgba(17,17,17,0.7)]"
                   >0
                 </span>
-                <span class="text-[16px] font-normal ml-2 text-gray-500"
+                <span
+                  class="text-[16px] font-normal ml-2 text-[rgba(17,17,17,0.7)]"
                   >BDT</span
                 >
               </div>
               <h2 class="text-xl font-bold text-[#111111]">
                 Donate for Flood Relief in Feni,Bangladesh
               </h2>
-              <p class="text-[16px] font-light text-gray-500">
+              <p class="text-[16px] font-light text-[rgba(17,17,17,0.7)]">
                 The recent floods in Feni have devastated local communities,
                 leading to severe disruption and loss. Your generous donation
                 will help provide immediate aid, including food, clean water,
@@ -174,8 +182,10 @@
             </div>
           </div>
 
-          <div class="flex justify-between items-start border rounded-2xl p-8">
-            <div class="basis-1/2 shrink-0">
+          <div
+            class="flex flex-col lg:flex-row justify-between items-start border rounded-2xl p-8"
+          >
+            <div class="basis-1/2 shrink-0 mb-8 lg:mb-0">
               <img
                 class="w-[522px] h-[467px]"
                 src="./assets/quota-protest.png"
@@ -187,17 +197,18 @@
                 <img src="./assets/coin.png" alt="" />
                 <span
                   id="card-three-donate-balance"
-                  class="text-[16px] font-normal ml-2 text-gray-500"
+                  class="text-[16px] font-normal ml-2 text-[rgba(17,17,17,0.7)]"
                   >0</span
                 >
-                <span class="text-[16px] font-normal ml-2 text-gray-500"
+                <span
+                  class="text-[16px] font-normal ml-2 text-[rgba(17,17,17,0.7)]"
                   >BDT</span
                 >
               </div>
               <h2 class="text-xl font-bold text-[#111111]">
                 Aid for Injured in the Quota Movement
               </h2>
-              <p class="text-[16px] font-light text-gray-500">
+              <p class="text-[16px] font-light text-[rgba(17,17,17,0.7)]">
                 The recent Quota movement has resulted in numerous injuries and
                 significant hardship for many individuals. Your support is
                 crucial in providing medical assistance, rehabilitation, and
@@ -236,15 +247,25 @@
       <section>
         <dialog id="donation-success-modal" class="modal">
           <div class="modal-box">
-            <h3 class="text-lg font-bold text-center">Congrates!</h3>
+            <h3 class="text-3xl font-bold text-center mb-4 text-[#111111]">
+              Congrates!
+            </h3>
             <div class="flex justify-center items-center">
               <img src="./assets/coin.png" alt="" />
             </div>
-            <p class="text-center">You Have Donated for Humankind</p>
-            <p class="text-center">Successfully</p>
+            <p class="text-center mt-8 text-[rgba(17,17,17,0.7)] text-xl">
+              You Have Donated for Humankind
+            </p>
+            <p class="text-center my-4 font-bold text-xl text-[#111111]">
+              Successfully
+            </p>
             <div class="modal-action flex justify-center">
               <form method="dialog">
-                <button class="btn">Close Confirmation</button>
+                <button
+                  class="btn font-semibold text-[rgba(17,17,17,0.7)] text-lg"
+                >
+                  Close Confirmation
+                </button>
               </form>
             </div>
           </div>

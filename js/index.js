@@ -96,7 +96,7 @@ document.getElementById("donation-btn").addEventListener("click", function () {
   donationBtn.style.cssText =
     "background-color: #B4F461; color: #111111; font-weight: 600;";
   historyBtn.style.cssText =
-    "background-color: #ffffff; color: red; font-weight: 500;";
+    "background-color: #ffffff; color: rgba(17, 17, 17, 0.7); font-weight: 500;";
 });
 
 document.getElementById("history-btn").addEventListener("click", function () {
@@ -104,5 +104,5 @@ document.getElementById("history-btn").addEventListener("click", function () {
   historyBtn.style.cssText =
     "background-color: #B4F461; color: #111111; font-weight: 600;";
   donationBtn.style.cssText =
-    "background-color: #ffffff; color: red;  font-weight: 500;";
+    "background-color: #ffffff; color: rgba(17, 17, 17, 0.7);  font-weight: 500;";
 });
